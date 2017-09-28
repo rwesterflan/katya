@@ -1,0 +1,17 @@
+binary_sensor.cube_158d0001031fb8:
+  friendly_name: Cube
+binary_sensor.door_window_sensor_158d00016cd610:
+  friendly_name: Achterdeur
+  icon: mdi:locker
+binary_sensor.motion_sensor_158d00016da04a:
+  friendly_name: Beweging 
+light.gateway_light_286c07f09ac5:
+  friendly_name: Gateway lamp
+sensor.humidity_158d0001212259:
+  friendly_name: Luchtvochtigheid
+  icon: mdi:weather-rainy
+sensor.illumination_286c07f09ac5:
+  icon: mdi:weather-sunset-up
+  friendly_name: Lichtsterkte
+sensor.temperature_158d0001212259:
+  friendly_name: Temperatuur

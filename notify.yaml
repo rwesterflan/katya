@@ -1,0 +1,6 @@
+- platform: matrix
+  name: publicservice
+  homeserver: https://matrix.fland.re
+  username: '@katya:fland.re'
+  password: !secret matrix_pass
+  default_room: '#katya:fland.re'

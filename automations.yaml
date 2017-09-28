@@ -1,0 +1,82 @@
+#[]
+
+- alias: 'Woonkamerlamp aan bij avond'
+  trigger:
+    - platform: sun
+      event: sunset
+      offset: "-01:00:00"
+  action:
+    service: light.turn_on
+    entity_id: light.plafond
+    data:
+      brightness: 50
+
+- alias: 'Woonkamerlamp toggle met knop'
+  trigger: 
+    platform: event
+    event_type: click
+    event_data:
+      entity_id: binary_sensor.switch_158d00016c0722
+      click_type: single
+  action:
+    service: light.toggle
+    entity_id: light.plafond
+
+- alias: 'TV-lamp toggle met cube flip'
+  trigger:
+    platform: event 
+    event_type: cube_action
+    event_data:
+      entity_id: binary_sensor.cube_158d0001031fb8
+      action_type: flip90
+  action: 
+    service: light.toggle
+    entity_id: light.gateway_light_286c07f09ac5
+
+- alias: 'Alle lampen uit bij dubbelklik'
+  trigger:
+    platform: event
+    event_type: click
+    event_data:
+      entity_id: binary_sensor.switch_158d00016c0722
+      click_type: double
+  action:
+    - service: light.turn_off
+      entity_id: light.gateway_light_286c07f09ac5
+    - service: light.turn_off
+      entity_id: light.plafond
+    - service: light.turn_off
+      entity_id: light.slaapkamer
+
+- alias: 'Slaapkamerlamp aan om 21:30'
+  trigger:
+    platform: time
+    at: '21:30:00'
+  action:
+    service: light.turn_on
+    entity_id: light.slaapkamer
+    data:
+      brightness: 50
+
+- alias: 'Slaapkamerlamp aan om 6:00'
+  trigger:
+    platform: time
+    at: '06:00:00'
+  condition:
+    - condition: state
+      entity_id: sun.sun
+      state: 'below_horizon'
+  action:
+    service: light.turn_on
+    entity_id: light.slaapkamer
+    data:
+      brightness: 30
+
+- alias: 'Test notify'
+  trigger:
+    platform: time
+    at: '06:00:00'
+  action:
+    service: notify.publicservice
+    data:
+      message: "Testje"

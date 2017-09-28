@@ -1,0 +1,12 @@
+- platform: cast
+  host: 172.16.10.15
+- platform: onkyo
+  host: 172.16.10.10
+  name: Onkyo TX-NR555
+  sources:
+    tv-cd: 'TV'
+    internet-radio: 'Internetradio'
+    network: 'Netwerk'
+- platform: lg_netcast
+  host: 172.16.10.9
+  access_token: 163781

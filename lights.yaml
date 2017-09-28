@@ -1,0 +1,11 @@
+- platform: flux_led
+  devices:
+   172.16.10.7:
+    name: Plafond
+    mode: "rgbw"
+
+- platform: yeelight
+  devices:
+    172.16.10.8:
+      name: Slaapkamer
+      use_music_mode: False

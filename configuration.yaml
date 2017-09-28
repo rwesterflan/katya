@@ -1,0 +1,48 @@
+homeassistant:
+  name: FlanLAN
+  latitude: 52.78016
+  longitude: 6.23431
+  elevation: 1
+  unit_system: metric
+  time_zone: Europe/Amsterdam
+  customize: !include names.yaml
+
+frontend:
+
+config:
+
+http:
+
+updater:
+  include_used_components: true
+
+media_player: !include cast.yaml
+
+conversation:
+
+history:
+
+logbook:
+
+sun:
+
+notify: !include notify.yaml
+
+device_tracker:
+  - platform: unifi
+    username: homeass
+    password: Xf0JsDxafjOcaZGYOc3r
+    host: wifi.fland.re
+    site_id: default
+    track_new_devices: no
+    verify_ssl: False
+
+light: !include lights.yaml
+
+xiaomi:
+  gateways:
+   - mac: 28:6c:07:f0:9a:c5
+     key: epnqllzjxdo40fz0
+
+group: !include groups.yaml
+automation: !include automations.yaml

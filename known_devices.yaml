@@ -1,0 +1,297 @@
+
+androidreneredmi:
+  hide_if_away: false
+  icon:
+  mac: 74:23:44:A5:48:E9
+  name: Rene 
+  picture:
+  track: true
+  vendor: Xiaomi Communications Co Ltd
+
+onkyo:
+  hide_if_away: false
+  icon:
+  mac: 00:09:B0:E0:E4:2F
+  name: onkyo
+  picture:
+  track: false
+  vendor: Onkyo Corporation
+
+surfacepro3:
+  hide_if_away: false
+  icon:
+  mac: C0:33:5E:CA:72:87
+  name: SurfacePro3
+  picture:
+  track: false
+  vendor: Microsoft
+
+lgtv:
+  hide_if_away: false
+  icon:
+  mac: 3C:CD:93:80:2D:63
+  name: LG-TV
+  picture:
+  track: false
+  vendor: LG ELECTRONICS INC
+
+mi_purifier:
+  hide_if_away: false
+  icon:
+  mac: 28:6C:07:B9:81:86
+  name: mi purifier
+  picture:
+  track: false
+  vendor: XIAOMI Electronics,CO.,LTD
+
+74440182ca96:
+  hide_if_away: false
+  icon:
+  mac: 74:44:01:82:CA:96
+  name: 74440182ca96
+  picture:
+  track: false
+  vendor: NETGEAR
+
+dcef09c62d93:
+  hide_if_away: false
+  icon:
+  mac: DC:EF:09:C6:2D:93
+  name: dcef09c62d93
+  picture:
+  track: false
+  vendor: NETGEAR
+
+28c68e0ba32f:
+  hide_if_away: false
+  icon:
+  mac: 28:C6:8E:0B:A3:2F
+  name: 28c68e0ba32f
+  picture:
+  track: false
+  vendor: NETGEAR
+
+the_maid:
+  hide_if_away: false
+  icon:
+  mac: 00:11:32:2C:A7:85
+  name: the maid
+  picture:
+  track: false
+  vendor: Synology Incorporated
+
+printer:
+  hide_if_away: false
+  icon:
+  mac: 00:23:4D:DB:DB:E6
+  name: printer
+  picture:
+  track: false
+  vendor: Hon Hai Precision Ind. Co.,Ltd.
+
+led_lr:
+  hide_if_away: false
+  icon:
+  mac: AC:CF:23:5F:6D:1E
+  name: led lr
+  picture:
+  track: false
+  vendor: Hi-flying electronics technology Co.,Ltd
+
+dcef09c62d91:
+  hide_if_away: false
+  icon:
+  mac: DC:EF:09:C6:2D:91
+  name: dcef09c62d91
+  picture:
+  track: false
+  vendor: NETGEAR
+
+chromecast:
+  hide_if_away: false
+  icon:
+  mac: 6C:AD:F8:EA:AE:CE
+  name: Chromecast
+  picture:
+  track: false
+  vendor: AzureWave Technology Inc.
+
+8883228b2baa:
+  hide_if_away: false
+  icon:
+  mac: 88:83:22:8B:2B:AA
+  name: 8883228b2baa
+  picture:
+  track: false
+  vendor: Samsung Electronics Co.,Ltd
+
+energy:
+  hide_if_away: false
+  icon:
+  mac: 4C:CC:6A:0E:68:33
+  name: energy
+  picture:
+  track: false
+  vendor: Micro-Star INTL CO., LTD.
+
+rockrobo:
+  hide_if_away: false
+  icon:
+  mac: 34:CE:00:E8:DB:A4
+  name: rockrobo
+  picture:
+  track: false
+  vendor: XIAOMI Electronics,CO.,LTD
+
+surfacepro3_2:
+  hide_if_away: false
+  icon:
+  mac: 50:1A:C5:EF:9E:5D
+  name: SurfacePro3
+  picture:
+  track: false
+  vendor: Microsoft
+
+desktopvkf80hv:
+  hide_if_away: false
+  icon:
+  mac: D8:FC:93:E4:33:EC
+  name: DESKTOP-VKF80HV
+  picture:
+  track: false
+  vendor: Intel Corporate
+
+android9add5bd3aa984bb7:
+  hide_if_away: false
+  icon:
+  mac: 00:90:4C:0A:E0:13
+  name: android-9add5bd3aa984bb7
+  picture:
+  track: false
+  vendor: Epigram, Inc.
+
+34af2c018f96:
+  hide_if_away: false
+  icon:
+  mac: 34:AF:2C:01:8F:96
+  name: 34af2c018f96
+  picture:
+  track: false
+  vendor: Nintendo Co., Ltd.
+
+androidd0daeb9f443ab123:
+  hide_if_away: false
+  icon:
+  mac: F8:95:C7:F5:1F:90
+  name: Yvonne (G4)
+  picture:
+  track: false
+  vendor: LG Electronics (Mobile Communications)
+
+raspberrypi:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:FE:5F:7C
+  name: raspberrypi
+  picture:
+  track: false
+  vendor: Raspberry Pi Foundation
+
+xubuntu:
+  hide_if_away: false
+  icon:
+  mac: 40:61:86:2A:CB:F9
+  name: xubuntu
+  picture:
+  track: false
+  vendor: MICRO-STAR INT'L CO.,LTD
+
+desktopd3vrm7l:
+  hide_if_away: false
+  icon:
+  mac: 00:25:D3:2F:9E:2A
+  name: DESKTOP-D3VRM7L
+  picture:
+  track: false
+  vendor: AzureWave Technology Inc.
+
+3c4a9277aa4e:
+  hide_if_away: false
+  icon:
+  mac: 3C:4A:92:77:AA:4E
+  name: 3c4a9277aa4e
+  picture:
+  track: false
+  vendor: Hewlett Packard
+
+ec1f7268ddb7:
+  hide_if_away: false
+  icon:
+  mac: EC:1F:72:68:DD:B7
+  name: ec1f7268ddb7
+  picture:
+  track: false
+  vendor: SAMSUNG ELECTRO-MECHANICS(THAILAND)
+
+000c294bd837:
+  hide_if_away: false
+  icon:
+  mac: 00:0C:29:4B:D8:37
+  name: 000c294bd837
+  picture:
+  track: false
+  vendor: VMware, Inc.
+
+androidmarc:
+  hide_if_away: false
+  icon:
+  mac: C0:BD:D1:38:43:9C
+  name: android-Marc
+  picture:
+  track: false
+  vendor: SAMSUNG ELECTRO-MECHANICS(THAILAND)
+
+desktopq32hoam:
+  hide_if_away: false
+  icon:
+  mac: 74:DF:BF:31:0D:E3
+  name: desktop-q32hoam
+  picture:
+  track: false
+  vendor: Liteon Technology Corporation
+
+galaxys6edge:
+  hide_if_away: false
+  icon:
+  mac: 30:07:4D:D3:48:84
+  name: Yvonne
+  picture:
+  track: true
+  vendor: SAMSUNG ELECTRO-MECHANICS(THAILAND)
+
+xubuntu_2:
+  hide_if_away: false
+  icon:
+  mac: 00:23:14:DD:45:74
+  name: xubuntu
+  picture:
+  track: false
+  vendor: Intel Corporate
+
+yee_bedroom:
+  hide_if_away: false
+  icon:
+  mac: 34:CE:00:BC:9E:EA
+  name: yee bedroom
+  picture:
+  track: false
+  vendor: XIAOMI Electronics,CO.,LTD
+
+lumigatewayv3_miio54958644:
+  hide_if_away: false
+  icon:
+  mac: 28:6C:07:F0:9A:C5
+  name: lumi-gateway-v3 miio54958644
+  picture:
+  track: false
+  vendor: XIAOMI Electronics,CO.,LTD
