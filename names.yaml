@@ -15,3 +15,7 @@ sensor.illumination_286c07f09ac5:
   friendly_name: Lichtsterkte
 sensor.temperature_158d0001212259:
   friendly_name: Temperatuur
+binary_sensor.wall_switch_158d000183ceff:
+  friendly_name: Muurschakelaar
+group.all_automations:
+  hidden: false

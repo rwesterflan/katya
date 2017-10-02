@@ -3,6 +3,7 @@
 #  icon: mdi:home
 #  entities: 
 #   - group.citizens
+
 woonkamer:
   name: Woonkamer
   entities:
@@ -38,8 +39,4 @@ config:
   name: Config
   view: yes
   entities:
-  - automation.alle_lampen_uit_bij_dubbelklik
-  - automation.slaapkamerlamp_aan_om_2130
-  - automation.tvlamp_toggle_met_cube_flip
-  - automation.woonkamerlamp_aan_bij_avond
-  - automation.woonkamerlamp_toggle_met_knop
+  - group.all_automations
