@@ -25,6 +25,12 @@ weather:
   - sensor.owm_temperature
   - sensor.owm_wind_bearing
   - sensor.owm_wind_speed
+switches:
+  name: Input
+  entities:
+  - binary_sensor.cube_158d0001031fb8
+  - binary_sensor.switch_158d00016c0722
+  - binary_sensor.wall_switch_158d000183ceff
 slaapkamer:
   name: Slaapkamer
   view: yes
@@ -52,3 +58,4 @@ config:
   view: yes
   entities:
   - group.all_automations
+  - group.input

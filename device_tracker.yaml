@@ -1,0 +1,7 @@
+- platform: unifi
+  username: homeass
+  password: Xf0JsDxafjOcaZGYOc3r
+  host: wifi.fland.re
+  site_id: default
+  track_new_devices: no
+  verify_ssl: False
