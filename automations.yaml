@@ -11,12 +11,12 @@
     data:
       brightness: 50
 
-- alias: 'Woonkamerlamp toggle met knop'
+- alias: 'Woonkamerlamp toggle met muurschakelaar'
   trigger: 
     platform: event
     event_type: click
     event_data:
-      entity_id: binary_sensor.switch_158d00016c0722
+      entity_id: binary_sensor.wall_switch_158d000183ceff 
       click_type: single
   action:
     service: light.toggle
@@ -48,6 +48,24 @@
     - service: light.turn_off
       entity_id: light.slaapkamer
 
+- alias: 'Slaapkamerlamp aan met knop'
+  trigger:
+    platform: event
+    event_type: click
+    event_data:
+      entity_id: binary_sensor.switch_158d00016c0722
+      click_type: single
+  action:
+   - service: light.toggle
+     entity_id: light.slaapkamer
+     #data:
+     #  brightness: 50
+   - service: notify.publicservice
+     data: 
+      message: "Slaapkamerlamp getrekkerd met de knop in slaapkamer"
+
+- alias: 'Slaapkamerlamp: Fix brightness bij Aanzetten'
+
 - alias: 'Slaapkamerlamp aan om 21:30'
   trigger:
     platform: time
@@ -72,11 +90,19 @@
     data:
       brightness: 30
 
-- alias: 'Test notify'
+- alias: 'Test notify via Google TTS'
   trigger:
     platform: time
     at: '06:00:00'
   action:
-    service: notify.publicservice
+  - service: media_player.turn_on
+    entity_id: media_player.onkyo_txnr555
+  - service: media_player.volume_set
     data:
-      message: "Testje"
+      entity_id: media_player.onkyo_txnr555
+      volume_level: 0.5
+  - delay: '00:00:10'
+  - service: tts.google_say
+    entity_id: media_player.onkyo_txnr555
+    data_template:
+     message: '. . . . Hallo.'
