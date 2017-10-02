@@ -9,6 +9,7 @@ woonkamer:
   entities:
   - group.lv_sensors
   - light.plafond
+  - media_player.lg_tv_remote
   - media_player.woonkamer
   - media_player.onkyo_txnr555
   - light.gateway_light_286c07f09ac5
@@ -58,4 +59,4 @@ config:
   view: yes
   entities:
   - group.all_automations
-  - group.input
+  - group.switches
