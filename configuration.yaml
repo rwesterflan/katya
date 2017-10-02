@@ -39,5 +39,6 @@ xiaomi:
 
 group: !include groups.yaml
 automation: !include automations.yaml
-sensor: !include sensors.yaml
+weather: !include weather.yaml
+sensor: !include sensor.yaml
 #vacuum: !include vacuum.yaml
