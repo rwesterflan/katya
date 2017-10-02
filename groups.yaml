@@ -13,6 +13,18 @@ woonkamer:
   - media_player.onkyo_txnr555
   - light.gateway_light_286c07f09ac5
   view: yes
+weather:
+  name: Weer
+  entities: 
+  - sensor.owm_cloud_coverage
+  - sensor.owm_condition
+  - sensor.owm_humidity
+  - sensor.owm_pressure
+  - sensor.owm_rain
+  - sensor.owm_snow
+  - sensor.owm_temperature
+  - sensor.owm_wind_bearing
+  - sensor.owm_wind_speed
 slaapkamer:
   name: Slaapkamer
   view: yes
