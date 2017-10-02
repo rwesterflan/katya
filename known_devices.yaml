@@ -243,12 +243,12 @@ ec1f7268ddb7:
   vendor: VMware, Inc.
 
 androidmarc:
-  hide_if_away: false
+  hide_if_away: true
   icon:
   mac: C0:BD:D1:38:43:9C
-  name: android-Marc
+  name: Marc
   picture:
-  track: false
+  track: true
   vendor: SAMSUNG ELECTRO-MECHANICS(THAILAND)
 
 desktopq32hoam:
@@ -295,3 +295,21 @@ lumigatewayv3_miio54958644:
   picture:
   track: false
   vendor: XIAOMI Electronics,CO.,LTD
+
+70255950bd40:
+  hide_if_away: false
+  icon:
+  mac: 70:25:59:50:BD:40
+  name: 70255950bd40
+  picture:
+  track: false
+  vendor: CyberTAN Technology Inc.
+
+0842ffffffff:
+  hide_if_away: false
+  icon:
+  mac: 08:42:FF:FF:FF:FF
+  name: 0842ffffffff
+  picture:
+  track: false
+  vendor: unknown
