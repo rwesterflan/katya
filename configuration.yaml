@@ -46,3 +46,5 @@ xiaomi:
 
 group: !include groups.yaml
 automation: !include automations.yaml
+sensor: !include sensors.yaml
+#vacuum: !include vacuum.yaml
