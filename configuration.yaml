@@ -12,6 +12,7 @@ frontend:
 config:
 
 http:
+   base_url: home.fland.re
 
 updater:
   include_used_components: true
@@ -32,13 +33,16 @@ device_tracker: !include device_tracker.yaml
 
 light: !include lights.yaml
 
-xiaomi:
-  gateways:
-   - mac: 28:6c:07:f0:9a:c5
-     key: epnqllzjxdo40fz0
+xiaomi_aqara: !include xiaomi.yaml
 
 group: !include groups.yaml
 automation: !include automations.yaml
 weather: !include weather.yaml
 sensor: !include sensor.yaml
 #vacuum: !include vacuum.yaml
+
+tts:
+ - platform: google
+   cache: true
+   cache_dir: /tmp/tts
+   language: 'nl'
