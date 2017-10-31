@@ -313,3 +313,129 @@ lumigatewayv3_miio54958644:
   picture:
   track: false
   vendor: unknown
+
+marinka3:
+  hide_if_away: false
+  icon:
+  mac: 70:EC:E4:C1:E0:82
+  name: Marinka-3
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+brokentable:
+  hide_if_away: false
+  icon:
+  mac: 00:1B:B1:29:1A:A4
+  name: brokentable
+  picture:
+  track: false
+  vendor: Wistron Neweb Corporation
+
+phoenix:
+  hide_if_away: false
+  icon:
+  mac: 02:87:05:C1:C9:06
+  name: phoenix
+  picture:
+  track: false
+  vendor: unknown
+
+brokentable_2:
+  hide_if_away: false
+  icon:
+  mac: 8C:C8:CD:6C:12:24
+  name: brokentable
+  picture:
+  track: false
+  vendor: Samsung Electronics Co.,Ltd
+
+katyapc:
+  hide_if_away: false
+  icon:
+  mac: 00:0D:60:2E:F1:E0
+  name: Katya-PC
+  picture:
+  track: false
+  vendor: IBM Corp
+
+iphonevanmanouk:
+  hide_if_away: false
+  icon:
+  mac: CC:29:F5:3A:2B:72
+  name: iPhonevanManouk
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+imouto:
+  hide_if_away: false
+  icon:
+  mac: 14:CC:20:25:6A:8A
+  name: imouto
+  picture:
+  track: false
+  vendor: TP-LINK TECHNOLOGIES CO.,LTD.
+
+desktopt46viu1:
+  hide_if_away: false
+  icon:
+  mac: E4:42:A6:77:55:B0
+  name: DESKTOP-T46VIU1
+  picture:
+  track: false
+  vendor: Intel Corporate
+
+0025aba77ef9:
+  hide_if_away: false
+  icon:
+  mac: 00:25:AB:A7:7E:F9
+  name: 0025aba77ef9
+  picture:
+  track: false
+  vendor: AIO LCD PC BU / TPV
+
+742f68cbb60e:
+  hide_if_away: false
+  icon:
+  mac: 74:2F:68:CB:B6:0E
+  name: 742f68cbb60e
+  picture:
+  track: false
+  vendor: AzureWave Technology Inc.
+
+renethinkpadt40:
+  hide_if_away: false
+  icon:
+  mac: 00:0E:35:73:A9:16
+  name: rene-ThinkPad-T40
+  picture:
+  track: false
+  vendor: Intel Corporation
+
+samsunggalaxys7:
+  hide_if_away: false
+  icon:
+  mac: DC:EF:CA:F0:58:41
+  name: Samsung-Galaxy-S7
+  picture:
+  track: false
+  vendor: Murata Manufacturing Co., Ltd.
+
+androidd1194274fd4d5136:
+  hide_if_away: false
+  icon:
+  mac: 50:CC:F8:9E:5D:4E
+  name: android-d1194274fd4d5136
+  picture:
+  track: false
+  vendor: SAMSUNG ELECTRO MECHANICS CO., LTD.
+
+eap:
+  hide_if_away: false
+  icon:
+  mac: 88:DC:96:01:B6:A0
+  name: eap
+  picture:
+  track: false
+  vendor: SENAO Networks, Inc.

@@ -26,6 +26,7 @@ weather:
   - sensor.owm_temperature
   - sensor.owm_wind_bearing
   - sensor.owm_wind_speed
+  - sensor.owm_forecast
 switches:
   name: Input
   entities:
@@ -46,6 +47,7 @@ lv_sensors:
     - sensor.illumination_286c07f09ac5
     - binary_sensor.door_window_sensor_158d00016cd610
     - binary_sensor.motion_sensor_158d00016da04a
+    - binary_sensor.smoke_sensor_158d0001d816c5
     - sun.sun
 citizens:
   name: Bewoners 
@@ -54,6 +56,7 @@ citizens:
   entities:
     - device_tracker.androidreneredmi
     - device_tracker.galaxys6edge
+    - device_tracker.androidmarc
 config:
   name: Config
   view: yes
