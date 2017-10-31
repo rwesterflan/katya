@@ -1,0 +1,4 @@
+- platform: wake_on_lan
+  mac_address: !secret energy_mac
+  name: "Gaming PC"
+  host: "172.16.10.5"

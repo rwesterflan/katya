@@ -60,11 +60,9 @@
      entity_id: light.slaapkamer
      #data:
      #  brightness: 50
-   - service: notify.publicservice
-     data: 
-      message: "Slaapkamerlamp getrekkerd met de knop in slaapkamer"
-
-- alias: 'Slaapkamerlamp: Fix brightness bij Aanzetten'
+  # - service: notify.publicservice
+  #   data: 
+  #    message: "Slaapkamerlamp getrekkerd met de knop in slaapkamer"
 
 - alias: 'Slaapkamerlamp aan om 21:30'
   trigger:
@@ -90,19 +88,13 @@
     data:
       brightness: 30
 
-- alias: 'Test notify via Google TTS'
+- alias: 'Turn on PC via Xiaomi Cube - Shake'
   trigger:
-    platform: time
-    at: '06:00:00'
+  - platform: event
+    event_type: cube_action
+    event_data:
+       entity_id: binary_sensor.cube_158d0001031fb8
+       action_type: shake_air
   action:
-  - service: media_player.turn_on
-    entity_id: media_player.onkyo_txnr555
-  - service: media_player.volume_set
-    data:
-      entity_id: media_player.onkyo_txnr555
-      volume_level: 0.5
-  - delay: '00:00:10'
-  - service: tts.google_say
-    entity_id: media_player.onkyo_txnr555
-    data_template:
-     message: '. . . . Hallo.'
+    service: switch.turn_on
+    entity_id: switch.gaming_pc
