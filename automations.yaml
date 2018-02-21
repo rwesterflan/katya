@@ -6,10 +6,16 @@
       event: sunset
       offset: "-01:00:00"
   action:
-    service: light.turn_on
-    entity_id: light.Woonkamer_plafond
-    data:
-      brightness: 50
+    - service: light.turn_on
+      entity_id: light.Woonkamer_plafond
+      data:
+        brightness: 50
+    - service: light.turn_on
+      entity_id: light.Woonkamer_hoek
+    - service: light.turn_on
+      entity_id: light.surface_achter
+    - service: light.turn_on
+      entity_id: light.woonkamer_balk
 
 - alias: 'Woonkamerlamp toggle met muurschakelaar'
   trigger: 
@@ -101,7 +107,7 @@
     data:
       brightness: 30
 
-- alias: 'Turn on PC via Xiaomi Cube - Shake'
+- alias: 'PC via Xiaomi Cube - Shake'
   trigger:
   - platform: event
     event_type: cube_action
