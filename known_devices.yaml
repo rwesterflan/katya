@@ -1,9 +1,9 @@
 
 androidreneredmi:
-  hide_if_away: false
+  hide_if_away: true
   icon:
   mac: 74:23:44:A5:48:E9
-  name: Rene 
+  name: Note3Pro
   picture:
   track: true
   vendor: Xiaomi Communications Co Ltd
@@ -360,12 +360,12 @@ katyapc:
   vendor: IBM Corp
 
 iphonevanmanouk:
-  hide_if_away: false
+  hide_if_away: true
   icon:
   mac: CC:29:F5:3A:2B:72
-  name: iPhonevanManouk
+  name: Manouk
   picture:
-  track: false
+  track: true
   vendor: Apple, Inc.
 
 imouto:
@@ -439,3 +439,192 @@ eap:
   picture:
   track: false
   vendor: SENAO Networks, Inc.
+
+001dd87c2ea6:
+  hide_if_away: false
+  icon:
+  mac: 00:1D:D8:7C:2E:A6
+  name: 001dd87c2ea6
+  picture:
+  track: false
+  vendor: Microsoft Corporation
+
+wheatley:
+  hide_if_away: false
+  icon:
+  mac: A0:F3:C1:0F:28:E1
+  name: Wheatley
+  picture:
+  track: false
+  vendor: TP-LINK TECHNOLOGIES CO.,LTD.
+
+wheatley_2:
+  hide_if_away: false
+  icon:
+  mac: D8:CB:8A:C7:99:D5
+  name: Wheatley
+  picture:
+  track: false
+  vendor: Micro-Star INTL CO., LTD.
+
+yeelinklightstrip1_miio567331:
+  hide_if_away: false
+  icon:
+  mac: 34:CE:00:87:D0:6C
+  name: yeelink-light-strip1 miio567331
+  picture:
+  track: false
+  vendor: unknown
+
+yeelinklightcolor1_miio576997:
+  hide_if_away: false
+  icon:
+  mac: 34:CE:00:8E:7A:0C
+  name: yeelink-light-color1 miio576997
+  picture:
+  track: false
+  vendor: XIAOMI Electronics,CO.,LTD
+
+yeelinklightcolor1_miio576095:
+  hide_if_away: false
+  icon:
+  mac: 34:CE:00:8D:19:9F
+  name: yeelink-light-color1 miio576095
+  picture:
+  track: false
+  vendor: XIAOMI Electronics,CO.,LTD
+
+0024e8a6a63e:
+  hide_if_away: false
+  icon:
+  mac: 00:24:E8:A6:A6:3E
+  name: 0024e8a6a63e
+  picture:
+  track: false
+  vendor: Dell Inc.
+
+mi6miphone:
+  hide_if_away: false
+  icon:
+  mac: 4C:49:E3:D1:48:55
+  name: Rene
+  picture:
+  track: true
+  vendor: Xiaomi Communications Co Ltd
+
+desktopq32hoam_2:
+  hide_if_away: false
+  icon:
+  mac: C0:33:5E:73:4E:10
+  name: DESKTOP-Q32HOAM
+  picture:
+  track: false
+  vendor: Microsoft
+
+1c1ee3943122:
+  hide_if_away: false
+  icon:
+  mac: 1C:1E:E3:94:31:22
+  name: 1c1ee3943122
+  picture:
+  track: false
+  vendor: Hui Zhou Gaoshengda Technology Co.,LTD
+
+14b31f299759:
+  hide_if_away: false
+  icon:
+  mac: 14:B3:1F:29:97:59
+  name: 14b31f299759
+  picture:
+  track: false
+  vendor: Dell Inc.
+
+hflpb100zj200:
+  hide_if_away: false
+  icon:
+  mac: AC:CF:23:5F:51:F4
+  name: HF-LPB100-ZJ200
+  picture:
+  track: false
+  vendor: Hi-flying electronics technology Co.,Ltd
+
+0026224e520b:
+  hide_if_away: false
+  icon:
+  mac: 00:26:22:4E:52:0B
+  name: 0026224e520b
+  picture:
+  track: false
+  vendor: COMPAL INFORMATION (KUNSHAN) CO., LTD.
+
+080027bf0439:
+  hide_if_away: false
+  icon:
+  mac: 08:00:27:BF:04:39
+  name: 080027bf0439
+  picture:
+  track: false
+  vendor: PCS Systemtechnik GmbH
+
+localhost:
+  hide_if_away: false
+  icon:
+  mac: E0:31:9E:2A:37:A7
+  name: localhost
+  picture:
+  track: false
+  vendor: Valve Corporation
+
+johanacer:
+  hide_if_away: false
+  icon:
+  mac: DC:85:DE:C3:E9:4F
+  name: Johan-Acer
+  picture:
+  track: false
+  vendor: AzureWave Technology Inc.
+
+sakuya:
+  hide_if_away: false
+  icon:
+  mac: A0:88:B4:C5:CF:A8
+  name: sakuya
+  picture:
+  track: false
+  vendor: Intel Corporate
+
+sakuya_2:
+  hide_if_away: false
+  icon:
+  mac: F0:DE:F1:77:5B:C1
+  name: sakuya
+  picture:
+  track: false
+  vendor: unknown
+
+mi6mi6:
+  hide_if_away: false
+  icon:
+  mac: 4C:49:E3:D1:48:56
+  name: MI6-Mi6
+  picture:
+  track: false
+  vendor: Xiaomi Communications Co Ltd
+
+leonie:
+  hide_if_away: false
+  icon:
+  mac: 5C:51:81:D1:94:1D
+  name: Leonie
+  picture:
+  track: false
+  vendor: Samsung Electronics Co.,Ltd
+
+tlwr740n:
+  hide_if_away: false
+  icon:
+  mac: F4:EC:38:CD:EB:47
+  name: TL-WR740N
+  picture:
+  track: false
+  vendor: TP-LINK TECHNOLOGIES CO.,LTD.

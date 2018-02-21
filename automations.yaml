@@ -7,7 +7,7 @@
       offset: "-01:00:00"
   action:
     service: light.turn_on
-    entity_id: light.plafond
+    entity_id: light.Woonkamer_plafond
     data:
       brightness: 50
 
@@ -20,7 +20,7 @@
       click_type: single
   action:
     service: light.toggle
-    entity_id: light.plafond
+    entity_id: light.Woonkamer_plafond
 
 - alias: 'TV-lamp toggle met cube flip'
   trigger:
@@ -44,9 +44,11 @@
     - service: light.turn_off
       entity_id: light.gateway_light_286c07f09ac5
     - service: light.turn_off
-      entity_id: light.plafond
+      entity_id: light.Woonkamer_plafond
     - service: light.turn_off
-      entity_id: light.slaapkamer
+      entity_id: light.Slaapkamer_plafond
+    - service: light.turn_off
+      entity_id: light.Slaapkamer_balk
 
 - alias: 'Slaapkamerlamp aan met knop'
   trigger:
@@ -57,9 +59,20 @@
       click_type: single
   action:
    - service: light.toggle
-     entity_id: light.slaapkamer
-     #data:
-     #  brightness: 50
+     entity_id: light.Slaapkamer_plafond
+
+- alias: 'Slaapkamerlamp full brightness met hold'
+  trigger:
+    platform: event
+    event_type: click
+    event_data:
+      entity_id: binary_sensor.switch_158d00016c0722
+      click_type: hold
+  action:
+    service: light.on
+    entity_id: light.Slaapkamer_plafond
+    data:
+      brightness: 100
   # - service: notify.publicservice
   #   data: 
   #    message: "Slaapkamerlamp getrekkerd met de knop in slaapkamer"
@@ -70,7 +83,7 @@
     at: '21:30:00'
   action:
     service: light.turn_on
-    entity_id: light.slaapkamer
+    entity_id: light.Slaapkamer_plafond
     data:
       brightness: 50
 
@@ -84,7 +97,7 @@
       state: 'below_horizon'
   action:
     service: light.turn_on
-    entity_id: light.slaapkamer
+    entity_id: light.Slaapkamer_plafond
     data:
       brightness: 30
 

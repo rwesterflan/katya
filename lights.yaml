@@ -1,11 +1,13 @@
 - platform: flux_led
   devices:
    172.16.10.7:
-    name: Plafond
+    name: Woonkamer plafond
     mode: "rgbw"
-
 - platform: yeelight
   devices:
-    172.16.10.8:
-      name: Slaapkamer
-      use_music_mode: False
+   172.16.10.8:
+    name: Slaapkamer plafond
+    use_music_mode: False
+   172.16.10.13:
+    name: Woonkamer balk
+    use_music_mode: False

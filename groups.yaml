@@ -8,7 +8,8 @@ woonkamer:
   name: Woonkamer
   entities:
   - group.lv_sensors
-  - light.plafond
+  - light.woonkamer_plafond
+  - light.woonkamer_balk
   - media_player.lg_tv_remote
   - media_player.woonkamer
   - media_player.onkyo_txnr555
@@ -37,7 +38,8 @@ slaapkamer:
   name: Slaapkamer
   view: yes
   entities:
-    - light.slaapkamer
+    - light.slaapkamer_plafond
+    - binary_sensor.motion_sensor_158d0001a9044e
 lv_sensors:
   name: Woonkamersensoren
   view: no
@@ -46,17 +48,18 @@ lv_sensors:
     - sensor.humidity_158d0001212259
     - sensor.illumination_286c07f09ac5
     - binary_sensor.door_window_sensor_158d00016cd610
+    - binary_sensor.door_window_sensor_158d0001bb42ba
     - binary_sensor.motion_sensor_158d00016da04a
     - binary_sensor.smoke_sensor_158d0001d816c5
     - sun.sun
 citizens:
   name: Bewoners 
   view: yes
-#  icon: mdi:airplane-landing
   entities:
-    - device_tracker.androidreneredmi
+    - device_tracker.mi6miphone
     - device_tracker.galaxys6edge
     - device_tracker.androidmarc
+    - device_tracker.iphonevanmanouk
 config:
   name: Config
   view: yes

@@ -29,7 +29,7 @@ group: !include groups.yaml
 automation: !include automations.yaml
 weather: !include weather.yaml
 sensor: !include sensor.yaml
-#vacuum: !include vacuum.yaml
+vacuum: !include vacuum.yaml
 tts:
  - platform: google
    cache: true
