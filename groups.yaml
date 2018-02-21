@@ -10,6 +10,8 @@ woonkamer:
   - group.lv_sensors
   - light.woonkamer_plafond
   - light.woonkamer_balk
+  - light.woonkamer_hoek
+  - light.surface_achter
   - media_player.lg_tv_remote
   - media_player.woonkamer
   - media_player.onkyo_txnr555
@@ -52,6 +54,11 @@ lv_sensors:
     - binary_sensor.motion_sensor_158d00016da04a
     - binary_sensor.smoke_sensor_158d0001d816c5
     - sun.sun
+bed_sensors:
+  name: Slaapkamersensoren
+  view: no
+  entities:
+    - binary_sensor.motion_sensor_158d0001a9044e
 citizens:
   name: Bewoners 
   view: yes
