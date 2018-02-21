@@ -11,3 +11,10 @@
    172.16.10.13:
     name: Woonkamer balk
     use_music_mode: False
+   172.16.10.22
+    name: Surface achter
+    use_music_mode: False
+   172.15.10.18
+    name: Woonkamer hoek
+    use_music_mode: False
+
